@@ -1,0 +1,24 @@
+/* このファイルは編集しないでください！  */
+.square {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px solid black;
+  }
+  /* このファイルは編集しないでください！  */
+  /* 今はこの内容はわからなくて大丈夫です！  */
+  #board {
+    display: flex;
+    margin: 0 auto;
+    width: 500px;
+    flex-wrap: wrap;
+  }
+  /* このファイルは編集しないでください！  */
+
+  .square:nth-of-type(2n+1) {
+    background-color: red;
+}
+
+.square:nth-of-type(2n) {
+    background-color: black;
+}

@@ -1,0 +1,18 @@
+section{
+    width: 500px;
+    height: 500px;
+    background-color: magenta;
+}
+
+#rgba {
+    width: 50%;
+    height: 50%;
+    background-color: rgba(78, 255, 122, 0.5)
+}
+
+#opacity {
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+    opacity: 0.5; /*opacityは要素全体的に半透明になる*/
+}

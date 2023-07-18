@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+
+div {
+    width: 200px; /*ボックスの右左の幅を変化*/
+    height: 300px; /*ボックスの上下の幅が変化 */
+    background-color: antiquewhite;
+}
+
+h1 {
+    background-color: pink;
+    width: 200px;
+    padding-left: 100px;
+    padding-top: 20px;
+    margin: 0px;
+}
+
+#one {
+    background-color: rgb(68, 0, 255);
+    border-width: 5px;
+    border-style: black;
+    border-style: solid;
+    margin-left: 50px;
+}
+#two{
+    background-color: beige;
+    padding-left: 20px;
+    margin: 200px;
+    border: 5px solid saddlebrown;
+}
+#three{
+    background-color:rgb(230, 151, 5) ;
+    border-radius: 50%;
+    border-style: dashed;
+}
+
+button {
+    padding: 2px 10px 0px ;
+}
